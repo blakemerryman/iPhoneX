@@ -57,11 +57,19 @@
 				466768751F7B2120007D5CF7 /* AppDelegate.swift */,
 				466768771F7B2120007D5CF7 /* ViewController.swift */,
 				466768791F7B2120007D5CF7 /* Main.storyboard */,
+				466768871F7B2133007D5CF7 /* Supporting Files */,
+			);
+			path = iPhoneX;
+			sourceTree = "<group>";
+		};
+		466768871F7B2133007D5CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				4667687C1F7B2120007D5CF7 /* Assets.xcassets */,
 				4667687E1F7B2120007D5CF7 /* LaunchScreen.storyboard */,
 				466768811F7B2120007D5CF7 /* Info.plist */,
 			);
-			path = iPhoneX;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
