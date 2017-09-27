@@ -10,6 +10,7 @@
 		460FD5221F7C54FB00F34107 /* FixedOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FD5211F7C54FB00F34107 /* FixedOnboardingViewController.swift */; };
 		465651CF1F7C572800150CAD /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465651CE1F7C572800150CAD /* SearchTableViewController.swift */; };
 		465651D11F7C57EA00150CAD /* FixedSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465651D01F7C57EA00150CAD /* FixedSearchTableViewController.swift */; };
+		465651D31F7C5B6A00150CAD /* ExamplesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465651D21F7C5B6A00150CAD /* ExamplesTableViewController.swift */; };
 		466768761F7B2120007D5CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466768751F7B2120007D5CF7 /* AppDelegate.swift */; };
 		466768781F7B2120007D5CF7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466768771F7B2120007D5CF7 /* TableViewController.swift */; };
 		4667687D1F7B2120007D5CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4667687C1F7B2120007D5CF7 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		460FD5211F7C54FB00F34107 /* FixedOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedOnboardingViewController.swift; sourceTree = "<group>"; };
 		465651CE1F7C572800150CAD /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		465651D01F7C57EA00150CAD /* FixedSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSearchTableViewController.swift; sourceTree = "<group>"; };
+		465651D21F7C5B6A00150CAD /* ExamplesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesTableViewController.swift; sourceTree = "<group>"; };
 		466768721F7B211F007D5CF7 /* iPhoneX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466768751F7B2120007D5CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466768771F7B2120007D5CF7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				466768751F7B2120007D5CF7 /* AppDelegate.swift */,
+				465651D21F7C5B6A00150CAD /* ExamplesTableViewController.swift */,
 				466768771F7B2120007D5CF7 /* TableViewController.swift */,
 				46992C171F7C520E003472C4 /* FixedTableViewController.swift */,
 				465651CE1F7C572800150CAD /* SearchTableViewController.swift */,
@@ -114,12 +117,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Blake Merryman";
 				TargetAttributes = {
 					466768711F7B211F007D5CF7 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = X2GDHXTJ3U;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +170,7 @@
 				466768781F7B2120007D5CF7 /* TableViewController.swift in Sources */,
 				4691C2EF1F7B5BBA001A3212 /* OnboardingViewController.swift in Sources */,
 				460FD5221F7C54FB00F34107 /* FixedOnboardingViewController.swift in Sources */,
+				465651D31F7C5B6A00150CAD /* ExamplesTableViewController.swift in Sources */,
 				466768761F7B2120007D5CF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,7 +199,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -202,7 +209,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -245,7 +256,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -253,7 +266,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -288,7 +305,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blakemerryman.iPhoneX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -301,7 +319,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blakemerryman.iPhoneX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

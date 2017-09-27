@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchTableViewController: TableViewController {
+class SearchTableViewController: FixedTableViewController {
 
     lazy var searchController: UISearchController = {
         let controller = UISearchController(searchResultsController: nil)
