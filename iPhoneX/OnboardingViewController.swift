@@ -57,6 +57,10 @@ class OnboardingViewController: UIViewController {
         view.addSubview(descriptionLabel)
         view.addSubview(continueButton)
 
+        configureConstraints()
+    }
+
+    func configureConstraints() {
         NSLayoutConstraint.activate([
 
             // Image view...
@@ -79,7 +83,7 @@ class OnboardingViewController: UIViewController {
 
             // Continue button...
             continueButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            continueButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -16.0),
+            continueButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -8.0),
             continueButton.widthAnchor.constraint(equalToConstant: view.bounds.width * 0.75),
             continueButton.heightAnchor.constraint(equalToConstant: view.bounds.height / 16.0),
             ])
