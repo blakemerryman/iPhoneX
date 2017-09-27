@@ -13,6 +13,7 @@
 		466768801F7B2120007D5CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4667687E1F7B2120007D5CF7 /* LaunchScreen.storyboard */; };
 		4691C2EF1F7B5BBA001A3212 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4691C2EE1F7B5BBA001A3212 /* OnboardingViewController.swift */; };
 		4691C2F11F7B6832001A3212 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4691C2F01F7B6832001A3212 /* README.md */; };
+		46992C181F7C520E003472C4 /* FixedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46992C171F7C520E003472C4 /* FixedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		466768811F7B2120007D5CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4691C2EE1F7B5BBA001A3212 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		4691C2F01F7B6832001A3212 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46992C171F7C520E003472C4 /* FixedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				466768751F7B2120007D5CF7 /* AppDelegate.swift */,
 				466768771F7B2120007D5CF7 /* TableViewController.swift */,
+				46992C171F7C520E003472C4 /* FixedTableViewController.swift */,
 				4691C2EE1F7B5BBA001A3212 /* OnboardingViewController.swift */,
 				466768871F7B2133007D5CF7 /* Supporting Files */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46992C181F7C520E003472C4 /* FixedTableViewController.swift in Sources */,
 				466768781F7B2120007D5CF7 /* TableViewController.swift in Sources */,
 				4691C2EF1F7B5BBA001A3212 /* OnboardingViewController.swift in Sources */,
 				466768761F7B2120007D5CF7 /* AppDelegate.swift in Sources */,
