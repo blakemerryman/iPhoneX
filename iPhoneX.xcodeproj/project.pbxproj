@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		466768761F7B2120007D5CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466768751F7B2120007D5CF7 /* AppDelegate.swift */; };
-		466768781F7B2120007D5CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466768771F7B2120007D5CF7 /* ViewController.swift */; };
-		4667687B1F7B2120007D5CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466768791F7B2120007D5CF7 /* Main.storyboard */; };
+		466768781F7B2120007D5CF7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466768771F7B2120007D5CF7 /* TableViewController.swift */; };
 		4667687D1F7B2120007D5CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4667687C1F7B2120007D5CF7 /* Assets.xcassets */; };
 		466768801F7B2120007D5CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4667687E1F7B2120007D5CF7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +16,7 @@
 /* Begin PBXFileReference section */
 		466768721F7B211F007D5CF7 /* iPhoneX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466768751F7B2120007D5CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		466768771F7B2120007D5CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4667687A1F7B2120007D5CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466768771F7B2120007D5CF7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4667687C1F7B2120007D5CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4667687F1F7B2120007D5CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466768811F7B2120007D5CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				466768751F7B2120007D5CF7 /* AppDelegate.swift */,
-				466768771F7B2120007D5CF7 /* ViewController.swift */,
-				466768791F7B2120007D5CF7 /* Main.storyboard */,
+				466768771F7B2120007D5CF7 /* TableViewController.swift */,
 				466768871F7B2133007D5CF7 /* Supporting Files */,
 			);
 			path = iPhoneX;
@@ -134,7 +131,6 @@
 			files = (
 				466768801F7B2120007D5CF7 /* LaunchScreen.storyboard in Resources */,
 				4667687D1F7B2120007D5CF7 /* Assets.xcassets in Resources */,
-				4667687B1F7B2120007D5CF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				466768781F7B2120007D5CF7 /* ViewController.swift in Sources */,
+				466768781F7B2120007D5CF7 /* TableViewController.swift in Sources */,
 				466768761F7B2120007D5CF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,14 +149,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		466768791F7B2120007D5CF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4667687A1F7B2120007D5CF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4667687E1F7B2120007D5CF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,6 +300,7 @@
 				466768861F7B2120007D5CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
