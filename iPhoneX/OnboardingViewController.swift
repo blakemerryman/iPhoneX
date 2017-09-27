@@ -84,4 +84,13 @@ class OnboardingViewController: UIViewController {
             continueButton.heightAnchor.constraint(equalToConstant: view.bounds.height / 16.0),
             ])
     }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return [.portrait]
+    }
+
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
 }
