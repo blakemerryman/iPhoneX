@@ -20,9 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        let viewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: viewController)
-        window?.rootViewController = navigationController
+//        let viewController = ViewController()
+//        let navigationController = UINavigationController(rootViewController: viewController)
+//        window?.rootViewController = navigationController
+
+        let viewController = OnboardingViewController()
+        window?.rootViewController = viewController
         window?.makeKeyAndVisible()
 
         return true
