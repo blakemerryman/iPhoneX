@@ -40,7 +40,7 @@ class FixedOnboardingViewController: OnboardingViewController {
 
             // Continue button...
             // The Fix: Ensure we're using safeAreaLayoutGuides
-            continueButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            continueButton.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
             continueButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             continueButton.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.75),
             continueButton.heightAnchor.constraint(equalToConstant: view.bounds.height / 16.0),
